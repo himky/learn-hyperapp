@@ -1,0 +1,11 @@
+.UIExample {
+  $name: ".UIExample";
+
+  &_inner {
+    display: none;
+
+    &.isVisible {
+      display: block;
+    }
+  }
+}

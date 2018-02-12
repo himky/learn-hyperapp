@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "target": "ES2017"
+  },
+  "files": ["index.ts"]
+}

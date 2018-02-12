@@ -1,0 +1,38 @@
+{
+  "name": "learn-hyperapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "_dev:clear": "rm -rf dist .cache",
+    "_dev:serve": "parcel src/views/index.html -d dist --open",
+    "_dev:format": "prettier --write src/scripts/**/*.{ts,tsx}",
+    "dev": "run-s _dev:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhmk21/learn-hyperapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yhmk21/learn-hyperapp/issues"
+  },
+  "homepage": "https://github.com/yhmk21/learn-hyperapp#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.6",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
+    "parcel-bundler": "^1.5.1",
+    "prettier": "^1.10.2",
+    "typescript": "^2.7.1"
+  },
+  "dependencies": {
+    "hyperapp": "^1.1.2",
+    "lodash": "^4.17.5",
+    "sanitize.css": "^5.0.0"
+  }
+}
