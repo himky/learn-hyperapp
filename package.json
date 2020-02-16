@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/yhmk21/learn-hyperapp#readme",
   "devDependencies": {
-    "autoprefixer": "^7.2.6",
+    "autoprefixer": "^9.7.4",
     "babel-preset-env": "^1.6.1",
     "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2",
