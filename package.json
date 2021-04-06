@@ -31,7 +31,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "hyperapp": "^2.0.4",
+    "hyperapp": "^2.0.13",
     "lodash": "^4.17.5",
     "sanitize.css": "^11.0.0"
   }
